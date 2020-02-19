@@ -77,7 +77,7 @@ onSubmit = (event) => {
     const file = this.state.file;
     console.log(" onSubmit ");
 
-    fetch('http://172.17.0.5:5000/classify', 
+    fetch('http://localhost:5000/classify', 
       {
         method: 'POST',
         body: file,
